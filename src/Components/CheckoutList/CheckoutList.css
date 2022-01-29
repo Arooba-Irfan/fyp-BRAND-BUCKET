@@ -1,0 +1,15 @@
+.checkout-list{
+    display: grid;
+    background-color: salmon;
+    row-gap: 1em;
+    overflow-y: scroll;
+    align-content: start;
+}
+
+.checkout-list-item-extends{
+    /* justify-content: center; */
+    justify-items: center;
+    margin-bottom: 2em;
+    border-bottom: 2px solid black;
+    padding: 1em;
+}

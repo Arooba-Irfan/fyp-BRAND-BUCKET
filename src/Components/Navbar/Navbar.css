@@ -1,0 +1,25 @@
+.navbar{
+    height: var(--navbar-height);
+    width: 100vw;
+    /* background-color:transparent; */
+    display: grid;
+    grid-template-columns: 1fr repeat(4,min-content);
+    column-gap: 30px;
+    font-size: 62.5%;
+    align-content: center;
+    padding: 0px 180px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    
+}
+/* .logo{
+    background: url("../../assets//logo.png");
+    background-size: 100% 100%, cover;
+    width: 128px;
+    height:100px;
+    margin-top: 10px;
+} */
+

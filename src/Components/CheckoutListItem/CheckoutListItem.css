@@ -1,0 +1,16 @@
+.checkout-list-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.checkout-item-product{
+    display: flex;
+    align-items: center;
+}
+
+.checkout-item-product-image{
+    background: silver;
+    width: 100px;
+    height: 100px;
+    margin-right: 1em;
+}

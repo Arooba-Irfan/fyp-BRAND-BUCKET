@@ -1,0 +1,6 @@
+.button{
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+}

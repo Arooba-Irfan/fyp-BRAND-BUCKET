@@ -1,0 +1,10 @@
+.category{
+    font-size: 62.5%;
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: var(--navbar-height) minmax(calc(100vh - var(--navbar-height)),min-content);
+    background:url("../../assets//shop.jpg");
+    background-size: 100% 100%,cover;
+    justify-content: center ;
+    padding-top: 15em;
+}

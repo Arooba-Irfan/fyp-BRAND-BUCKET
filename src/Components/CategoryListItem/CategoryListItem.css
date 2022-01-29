@@ -1,0 +1,24 @@
+.category-list-item{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* background: lightpink; */
+    justify-items: center;
+    margin-bottom: 15em;
+    position: relative;
+}
+
+.category-text{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    font-size: 140px;
+    letter-spacing: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.category-text:hover{
+    color: rgba(165, 139, 25, 0.9);
+    transform: translateX(-50%) translateY(-80%);
+}

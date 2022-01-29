@@ -1,0 +1,62 @@
+.auth-form{
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    background: white;
+    height: 45em;
+    width: 45em;
+    padding: 3em;
+    row-gap: 2em;
+    transform: translateX(-10%) translateY(15%);
+    z-index: 9999;
+    box-shadow: 3px 3px 7px 5px rgba(0, 0, 0,0.5);
+    border-radius: 8px;
+}
+
+.auth-form-switcher{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: start;
+}
+
+.auth-form-field{
+    /* background: chocolate; */
+    padding: 0em 3em;
+}
+
+.underliner{
+    width: 60%;
+    height: 2px;
+    background:black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+}
+
+.auth-form-button{
+    /* background: lightblue; */
+    display: grid;
+    justify-items: center;
+}
+
+.separator-or{
+    /* background: lightgreen; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    column-gap: 0.5em;
+    font-family: var(--font-family-paragraph);
+}
+
+.separator-or::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+.separator-or::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: black;
+}
